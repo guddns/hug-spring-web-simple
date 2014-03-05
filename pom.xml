@@ -144,6 +144,37 @@
 	                <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+	        <plugin>
+		        <groupId>com.samaxes.maven</groupId>
+		        <artifactId>minify-maven-plugin</artifactId>
+		        <version>1.7.2</version>
+		        <executions>
+			        <execution>
+				        <id>default-minify</id>
+				        <phase>process-resources</phase>
+				        <configuration>
+					        <charset>UTF-8</charset>
+					        <jsEngine>closure</jsEngine>
+					        <cssSourceIncludes>
+						        <cssSourceInclude>**</cssSourceInclude>
+					        </cssSourceIncludes>
+					        <cssSourceExcludes>
+						        <cssSourceExclude>**/*.min.css</cssSourceExclude>
+					        </cssSourceExcludes>
+					        <jsSourceIncludes>
+						        <jsSourceInclude>**</jsSourceInclude>
+					        </jsSourceIncludes>
+					        <jsSourceExcludes>
+						        <jsSourceExclude>**/*.min.js</jsSourceExclude>
+					        </jsSourceExcludes>
+					        <verbose>true</verbose>
+				        </configuration>
+				        <goals>
+					        <goal>minify</goal>
+				        </goals>
+			        </execution>
+		        </executions>
+	        </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
 	            <version>2.16</version>
@@ -153,6 +184,20 @@
                     </includes>
                 </configuration>
             </plugin>
+	        <plugin>
+		        <artifactId>maven-eclipse-plugin</artifactId>
+		        <version>2.9</version>
+		        <configuration>
+			        <additionalProjectnatures>
+				        <projectnature>org.springframework.ide.eclipse.core.springnature</projectnature>
+			        </additionalProjectnatures>
+			        <additionalBuildcommands>
+				        <buildcommand>org.springframework.ide.eclipse.core.springbuilder</buildcommand>
+			        </additionalBuildcommands>
+			        <downloadSources>true</downloadSources>
+			        <downloadJavadocs>true</downloadJavadocs>
+		        </configuration>
+	        </plugin>
 	        <plugin>
 		        <artifactId>maven-archetype-plugin</artifactId>
 		        <version>2.2</version>

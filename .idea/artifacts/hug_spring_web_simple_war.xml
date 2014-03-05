@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="hug-spring-web-simple:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="hug-spring-web-simple.war">
+      <element id="artifact" artifact-name="hug-spring-web-simple:war exploded" />
+    </root>
+  </artifact>
+</component>
