@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%d{HH:mm:ss} [%-5level] %logger{36}:%L - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="daily" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<Append>true</Append>
+		<File>logs/out.log</File>
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss} %c{1}:%L [%p] %m%n</pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/jongo.log.%d{yyyy-MM-dd}</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+	</appender>
+
+	<logger name="org.springframework.core" level="info"/>
+	<logger name="org.springframework.beans" level="info"/>
+	<logger name="org.springframework.context" level="info"/>
+	<logger name="org.springframework.web" level="debug"/>
+	<logger name="org.apache.commons" level="info"/>
+	<logger name="com.hug" level="info"/>
+	<logger name="base" level="debug"/>
+
+	<root level="debug">
+		<appender-ref ref="console"/>
+	</root>
+</configuration>

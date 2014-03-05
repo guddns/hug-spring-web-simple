@@ -1,0 +1,4 @@
+## 테스트 매트로
+#macro(testPrint)
+	<p>테스트를 출력합니다.</p>
+#end
