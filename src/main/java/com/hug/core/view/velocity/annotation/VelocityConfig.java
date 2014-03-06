@@ -64,7 +64,7 @@ public class VelocityConfig implements ImportAware, BeanClassLoaderAware, Applic
 
 		// AttributesMapConfigurer 이 있는 경우 모든 뷰에 attribute 를 전달 한다.
 		if (attributesMapConfigurer != null) {
-			HashMap attributesMap = new HashMap();
+			HashMap<String, Object> attributesMap = new HashMap<String, Object>();
 			attributesMapConfigurer.addAttributesMap(attributesMap);
 			viewResolver.setAttributesMap(attributesMap);
 		}

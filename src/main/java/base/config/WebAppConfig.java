@@ -52,6 +52,7 @@ public class WebAppConfig extends WebMvcConfigurationSupport implements ViewAttr
 	/**
 	 * 뷰에 전달할 attribute를 추가한다.
 	 */
+	@SuppressWarnings("unchecked")
 	public void addAttributesMap(Map attributesMap) {
 		// 뷰에서 바로 MessageSource를 사용할 수 있다.
 		attributesMap.put("message", messageSourceAccessor);
