@@ -1,7 +1,9 @@
 package com.hug.core.context.message;
 
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanClassLoaderAware;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,10 +25,11 @@ import java.util.Map;
  * @since 2014. 2. 21.
  */
 @Configuration
-public class MessageSourceConfig implements ImportAware {
+public class MessageSourceConfig implements ImportAware, ApplicationContextAware, BeanClassLoaderAware
+{
 	protected ApplicationContext applicationContext;
-
 	protected ClassLoader classLoader;
+
 	private String[] basenames;
 
 
@@ -46,8 +49,6 @@ public class MessageSourceConfig implements ImportAware {
 	}
 
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-
-
 		this.applicationContext = applicationContext;
 	}
 

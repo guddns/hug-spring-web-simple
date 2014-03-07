@@ -30,7 +30,8 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 @Configuration
-public class VelocityConfig implements ImportAware, BeanClassLoaderAware, ApplicationContextAware {
+public class VelocityConfig implements ImportAware, BeanClassLoaderAware, ApplicationContextAware
+{
 	protected ApplicationContext applicationContext;
 	protected ClassLoader classLoader;
 
@@ -86,8 +87,6 @@ public class VelocityConfig implements ImportAware, BeanClassLoaderAware, Applic
 	}
 
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-
-
 		this.applicationContext = applicationContext;
 	}
 
