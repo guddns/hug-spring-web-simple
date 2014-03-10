@@ -7,3 +7,5 @@
 테스트
 </body>
 </html>
+
+${message.getMessage("error.missing.parameter", "sdf", "sdlkfj")}

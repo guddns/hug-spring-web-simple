@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c3347a-ee18-4cbf-a3bb-88945c1959d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hug/core/context/message/MessageSourceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/hug/core/context/message/MessageSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/annotation/VelocityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/annotation/VelocityConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hug/core/filter/CorsSupportFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/controller/HelloController.java" afterPath="$PROJECT_DIR$/src/main/java/base/controller/HelloController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/config/Initializer.java" afterPath="$PROJECT_DIR$/src/main/java/base/config/Initializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/errors.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/errors.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hug-spring-web-simple.iml" afterPath="$PROJECT_DIR$/hug-spring-web-simple.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/hug_spring_web_simple_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/hug_spring_web_simple_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/index.vm" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/index.vm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hug-spring-web-simple.iws" />
@@ -73,7 +78,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="57" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="4662">
+            <state line="147" column="4" selection-start="4172" selection-end="4172" vertical-scroll-proportion="0.0" vertical-offset="2254" max-vertical-offset="4662">
               <folding />
             </state>
           </provider>
@@ -82,92 +87,79 @@
       <file leaf-file-name="BaseHandlerExceptionResolver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/exception/BaseHandlerExceptionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1944">
+            <state line="68" column="16" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2412">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnableMessageSource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/context/message/EnableMessageSource.java">
+      <file leaf-file-name="errors.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/errors.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+            <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageSourceConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/context/message/MessageSourceConfig.java">
+      <file leaf-file-name="HelloController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="39" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1296">
-              <folding>
-                <element signature="e#1835#1836#0" expanded="true" />
-                <element signature="e#1886#1887#0" expanded="true" />
-                <element signature="e#1946#1947#0" expanded="true" />
-                <element signature="e#1983#1984#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassLoader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="22" selection-start="6777" selection-end="6777" vertical-scroll-proportion="0.0" vertical-offset="4786" max-vertical-offset="38844">
+            <state line="27" column="1" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebAppConfig.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="spring-security-config-3.2.0.RELEASE.pom" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.2.0.RELEASE/spring-security-config-3.2.0.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="31" selection-start="4020" selection-end="4020" vertical-scroll-proportion="0.0" vertical-offset="1631" max-vertical-offset="6408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebAppConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/config/WebAppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="53" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.58668196" vertical-offset="497" max-vertical-offset="1602">
-              <folding>
-                <element signature="e#2172#2202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMvcConfigurationSupport.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="13" selection-start="7177" selection-end="7177" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="10368">
+            <state line="70" column="72" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="1602">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebMvcConfigurerAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
+      <file leaf-file-name="CorsSupportFilter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/filter/CorsSupportFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2070">
+            <state line="26" column="8" selection-start="984" selection-end="984" vertical-scroll-proportion="0.49113232" vertical-offset="0" max-vertical-offset="733">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VelocityConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/annotation/VelocityConfig.java">
+      <file leaf-file-name="Initializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/config/Initializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="26" selection-start="3096" selection-end="3096" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="1998">
-              <folding>
-                <element signature="e#2586#2602#0" expanded="true" />
-                <element signature="e#3197#3198#0" expanded="true" />
-                <element signature="e#3248#3249#0" expanded="true" />
-                <element signature="e#3308#3309#0" expanded="true" />
-                <element signature="e#3345#3346#0" expanded="true" />
-              </folding>
+            <state line="51" column="15" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="990">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HVelocityTookboxView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/HVelocityTookboxView.java">
+      <file leaf-file-name="index.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/index.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="9" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+            <state line="10" column="34" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
               <folding />
             </state>
           </provider>
@@ -187,12 +179,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/sdf.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/index.vm" />
         <option value="$PROJECT_DIR$/src/main/java/com/hug/view/velocity/HVelocityTookboxView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hug/view/velocity/annotation/EnableVelocity.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/controller/BaseHandlerExceptionResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/dto/ApiResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/i18n/errors.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/hug/view/ViewAttributesMapConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hug/view/velocity/annotation/VelocityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hug/core/context/message/MessageSourceConfiguration.java" />
@@ -203,9 +193,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/annotation/EnableVelocity.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/error.vm" />
         <option value="$PROJECT_DIR$/src/main/resources/velocity/velocity.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/base/config/Initializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/config/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cj/test/AppTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
@@ -213,10 +201,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/base.js" />
         <option value="$PROJECT_DIR$/src/main/java/base/config/WebAppConfig.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/base/exception/BaseHandlerExceptionResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hug/core/context/message/MessageSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/annotation/VelocityConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/index.vm" />
+        <option value="$PROJECT_DIR$/src/main/resources/i18n/errors.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/base/config/Initializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hug/core/filter/CorsSupportFilter.java" />
       </list>
     </option>
   </component>
@@ -368,148 +361,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="hug-spring-web-simple" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hug-spring-web-simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.2.8.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-webmvc-3.2.8.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hug-spring-web-simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.2.8.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-webmvc-3.2.8.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hug-spring-web-simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.2.8.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-webmvc-3.2.8.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hug-spring-web-simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.2.8.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-webmvc-3.2.8.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -555,6 +413,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velocity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -581,6 +451,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -650,6 +542,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="i18n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -755,6 +673,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -882,13 +838,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hug-spring-web-simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -912,8 +897,12 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hug.core.filter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/velocity" />
       <recent name="$PROJECT_DIR$/src/main/java/com/hug/core/context/message" />
@@ -1219,7 +1208,9 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hug-spring-web-simple/hug-spring-web-simple" />
       <deployment>
         <artifact name="hug-spring-web-simple:war exploded">
-          <settings DEPLOYMENT_METHOD="contexts" />
+          <settings DEPLOYMENT_METHOD="contexts">
+            <option name="defaultContextRoot" value="false" />
+          </settings>
         </artifact>
       </deployment>
       <server-settings>
@@ -1445,9 +1436,9 @@
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
-      <item index="1" class="java.lang.String" itemvalue="Jetty Server.Jetty 9.0.6.v20130930" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.50" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AppTests.simple" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AppTests.simple" />
+      <item index="2" class="java.lang.String" itemvalue="Jetty Server.Jetty 9.0.6.v20130930" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.50" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1488,12 +1479,14 @@
       <workItem from="1393802643104" duration="53890000" />
       <workItem from="1394024880886" duration="20000" />
       <workItem from="1394024955069" duration="215000" />
-      <workItem from="1394061785772" duration="9470000" />
+      <workItem from="1394061785772" duration="10285000" />
+      <workItem from="1394167563799" duration="1946000" />
+      <workItem from="1394407552000" duration="1756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63595000" />
+    <option name="totallyTimeSpent" value="68112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1346" extended-state="6" />
@@ -1507,7 +1500,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24348535" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3615635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1520,8 +1513,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15250199" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12509929" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24918567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225973" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1551,26 +1544,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="13" selection-start="5037" selection-end="5037" vertical-scroll-proportion="0.0" vertical-offset="3596" max-vertical-offset="19080" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1926" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/view/json/MappingJacksonJsonView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="13" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="4644" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/view/AbstractView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="22" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="7200" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/view/json/MappingJackson2JsonView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="50" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="4986" />
@@ -1578,28 +1551,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.8.RELEASE/spring-web-3.2.8.RELEASE-sources.jar!/org/springframework/http/MediaType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="34" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0" vertical-offset="1235" max-vertical-offset="16056">
-          <folding>
-            <element signature="e#0#31682#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#8226#8242#0" expanded="false" />
-            <element signature="e#12292#12293#0" expanded="false" />
-            <element signature="e#12315#12316#0" expanded="false" />
-            <element signature="e#12569#12570#0" expanded="false" />
-            <element signature="e#12595#12596#0" expanded="false" />
-            <element signature="e#14292#14293#0" expanded="false" />
-            <element signature="e#14317#14318#0" expanded="false" />
-            <element signature="e#17808#17824#0" expanded="false" />
-            <element signature="e#18322#18338#0" expanded="false" />
-            <element signature="e#18964#18972#0" expanded="false" />
-            <element signature="e#19103#19111#0" expanded="false" />
-            <element signature="e#23862#23873#0" expanded="false" />
-            <element signature="e#28657#30140#0" expanded="false" />
-            <element signature="e#30136#30137#0" expanded="false" />
-            <element signature="e#30282#31677#0" expanded="false" />
-            <element signature="e#31673#31674#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="116" column="34" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0" vertical-offset="1235" max-vertical-offset="16056" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerExceptionResolver.java">
@@ -1635,16 +1587,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.8.RELEASE/spring-web-3.2.8.RELEASE-sources.jar!/org/springframework/web/bind/MissingServletRequestParameterException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="78" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="772" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/errors.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.8.RELEASE/spring-context-3.2.8.RELEASE.jar!/org/springframework/context/MessageSource.class">
@@ -1688,11 +1630,6 @@
         <state line="3" column="4" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="162" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/index.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="252" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/error.vm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="99" selection-end="99" vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="270" />
@@ -1703,29 +1640,9 @@
         <state line="3" column="35" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/config/Initializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="990">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/dto/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="29" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="1278">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="38" column="29" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="1278" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/config/RootConfig.java">
@@ -1760,30 +1677,22 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12960">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-          <folding />
-        </state>
+        <state line="7" column="2" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/samaxes/maven/minify-maven-plugin/1.7.2/minify-maven-plugin-1.7.2.jar!/META-INF/maven/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="8" selection-start="13492" selection-end="13492" vertical-scroll-proportion="0.0" vertical-offset="4783" max-vertical-offset="7974">
-          <folding />
-        </state>
+        <state line="294" column="8" selection-start="13492" selection-end="13492" vertical-scroll-proportion="0.0" vertical-offset="4783" max-vertical-offset="7974" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/view/UrlBasedViewResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="16" selection-start="10662" selection-end="10662" vertical-scroll-proportion="0.0" vertical-offset="4099" max-vertical-offset="7614">
-          <folding />
-        </state>
+        <state line="288" column="16" selection-start="10662" selection-end="10662" vertical-scroll-proportion="0.0" vertical-offset="4099" max-vertical-offset="7614" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
@@ -1795,9 +1704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/test.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/view/ViewAttributesMapConfigurer.java">
@@ -1818,30 +1725,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/3.2.8.RELEASE/spring-context-support-3.2.8.RELEASE-sources.jar!/org/springframework/ui/velocity/VelocityEngineFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="16" selection-start="6274" selection-end="6274" vertical-scroll-proportion="0.0" vertical-offset="1862" max-vertical-offset="5976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="57" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="4662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/exception/BaseHandlerExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1944">
-          <folding />
-        </state>
+        <state line="153" column="16" selection-start="6274" selection-end="6274" vertical-scroll-proportion="0.0" vertical-offset="1862" max-vertical-offset="5976" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="22" selection-start="6777" selection-end="6777" vertical-scroll-proportion="0.0" vertical-offset="4786" max-vertical-offset="38844">
-          <folding />
-        </state>
+        <state line="176" column="22" selection-start="6777" selection-end="6777" vertical-scroll-proportion="0.0" vertical-offset="4786" max-vertical-offset="38844" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/HVelocityTookboxView.java">
@@ -1861,48 +1750,108 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/context/message/MessageSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="39" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1296">
-          <folding>
-            <element signature="e#1835#1836#0" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1983#1984#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/view/velocity/annotation/VelocityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="26" selection-start="3096" selection-end="3096" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="1998">
-          <folding>
-            <element signature="e#2586#2602#0" expanded="true" />
-            <element signature="e#3197#3198#0" expanded="true" />
-            <element signature="e#3248#3249#0" expanded="true" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2070">
-          <folding />
-        </state>
+        <state line="35" column="22" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2070" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.8.RELEASE/spring-webmvc-3.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="13" selection-start="7177" selection-end="7177" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="10368">
+        <state line="144" column="13" selection-start="7177" selection-end="7177" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="10368" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.1.0.RELEASE/spring-security-config-3.1.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.4.RELEASE/spring-security-core-3.1.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2268">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.2.0.RELEASE/spring-security-config-3.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="31" selection-start="4020" selection-end="4020" vertical-scroll-proportion="0.0" vertical-offset="1631" max-vertical-offset="6408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="4" selection-start="4172" selection-end="4172" vertical-scroll-proportion="0.0" vertical-offset="2254" max-vertical-offset="4662">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/exception/BaseHandlerExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="16" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.0" vertical-offset="461" max-vertical-offset="1944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/velocity/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/errors.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/config/WebAppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="53" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.58668196" vertical-offset="497" max-vertical-offset="1602">
-          <folding>
-            <element signature="e#2172#2202#0" expanded="true" />
-          </folding>
+        <state line="70" column="72" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="1602">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/config/Initializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="15" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hug/core/filter/CorsSupportFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="8" selection-start="984" selection-end="984" vertical-scroll-proportion="0.49113232" vertical-offset="0" max-vertical-offset="733">
+          <folding />
         </state>
       </provider>
     </entry>

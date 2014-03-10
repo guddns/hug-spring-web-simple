@@ -1,5 +1,6 @@
 package base.config;
 
+import com.hug.core.filter.CorsSupportFilter;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
@@ -28,7 +29,7 @@ public class Initializer extends AbstractAnnotationConfigDispatcherServletInitia
 	}
 
 	protected Filter[] getServletFilters() {
-		return new Filter[]{this.encodingFilter(), this.httpMethodFilter()};
+		return new Filter[]{this.encodingFilter(), this.httpMethodFilter(), this.corsFilter()};
 	}
 
 	protected void customizeRegistration(ServletRegistration.Dynamic registration) {
@@ -45,6 +46,11 @@ public class Initializer extends AbstractAnnotationConfigDispatcherServletInitia
 
 	private Filter httpMethodFilter() {
 		return new HiddenHttpMethodFilter();
+	}
+
+	private Filter corsFilter() {
+		CorsSupportFilter corsSupportFilter = new CorsSupportFilter();
+		return corsSupportFilter;
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.cj.test;
+package com.base.test;
 
 import base.config.WebAppConfig;
 import lombok.extern.slf4j.Slf4j;
